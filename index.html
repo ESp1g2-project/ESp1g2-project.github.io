@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebRemote</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Playfair+Display:400,700,900 " rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">WebRemote.</a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#properties-section" class="nav-link">Client</a></li>
+                <li><a href="#agents-section" class="nav-link">Vision</a></li>
+                <!--<li><a href="#about-section" class="nav-link">Manual</a></li>-->
+                <!--<li><a href="#news-section" class="nav-link">Specification</a></li>-->
+                <li><a href="#contact-section" class="nav-link">Developer</a></li>
+                <li><a href="#team-section" class="nav-link">Team</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+    
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" id="home-section">
+
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 mt-lg-5 text-center">
+            <h1>Control your RC vehicle from anywhere</h1>
+            <p class="mb-5"></p>
+            
+          </div>
+        </div>
+      </div>
+
+      <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
+    </div>  
+
+    <div class="site-section" id="properties-section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-7 text-left">
+            <h2 class="section-title mb-3">Client</h2>
+          </div>
+        </div>
+
+        <div>
+          <p class="lead">
+              <h4><strong>Context</strong></h4>
+          </p>
+          <p class="lead">
+            RC vehicles are normally controlled by a remote controller via radio signals. Although a good solution for short distancies, it fails
+            in operations that require the operator and vehicle to be separated by a long distance. For example, there could be a need for a RC vehicle accomplish
+            a task where humans shouldn't be directly involved in.
+          </p>
+          <p class="lead">
+            WebRemote is a service that allows the user to control a vehicle through the web. By having access to the Internet, the operator and the vehicle can 
+            interact independently of the distance that separates them.
+          </p>
+
+          <br>
+          <p class="lead">
+              <h4><strong>Features</strong></h4>
+          </p>
+
+          <p class="lead">
+            The web page used to control the vehicle allows for two methods of interaction: 
+          </p>
+          <ol class="lead">
+            <li type="a">by clicking in the directional buttons</li>
+            <li type="b">by voice</li>
+          </ol>
+          <p class="lead">
+            The web page also displays a video stream from the perspective of the vehicle.
+          </p>
+          <p class="lead">
+            Due to the nature of the technology, remote controlling the car through the web comes with added lag. In order
+            to prevent the vehicle from crashing into walls or any other obstacle, it comes with ultrasound sensors that allow
+            for collision detection.
+          </p>
+
+          <br>
+          
+
+          <br>
+          <p class="lead">
+              <h4><strong>Visual Concept</strong></h4>
+          </p>
+		  
+		  <p class="lead">
+            Web page: 
+          </p>
+		  
+		  <p class="lead">
+              <img src="_images/mockup.png" alt="Image" class="img-fluid" width="1000px">
+          </p>
+		  
+		  <p class="lead">
+            Remote control car: 
+          </p>
+
+          <p class="lead">
+              <img src="_images/lego_car.jpg" alt="Image" class="img-fluid" width="1000px">
+          </p>
+
+          <br>
+          <p class="lead">
+              <h4><strong>Architecture</strong></h4>
+              <img src="./_images/Architecture.png" alt="Architecture diagram" height="550" >
+
+                <br><br>
+
+                <ul class="lead">
+
+                  <li>Ultrasonic sensor</li>
+                  <ul>
+                      <li>In a python file, Raspberry Pi continuously calculates the distance to obstacle and sends it to Kafka.</li>
+                  </ul>
+
+                  <li>Raspberry Pi Camera</li>
+                  <ul>
+                      <li>In another python file, Raspberry Pi chooses the resolution and captures a photo then encode the image in bytes and sends to Kafka.</li>
+                  </ul>
+
+                  <li>Sound sensor</li>
+                  <ul>
+                      <li>A voice sensor is used to capture the voice commands made by a user.
+                      </li>
+                  </ul>
+
+                  <li>Sbrick</li>
+                  <ul>
+                      <li>Sbrick receives comands from Raspberry Pi through bluetooth, and makes the motor and servo move or stop.</li>
+                  </ul>
+
+                  <li>Raspberry Pi</li>
+                  <ul>
+                      <li>Raspberry has python files running, two already explained before. The next file receives messages from Kafka that can be drive or stop messages and sends comands to sbrick accordingly.</li>
+                  </ul>
+
+                  <li>Kafka cluster</li>
+                  <ul>
+                      <li> The kafka broker stores the various information shared between the Raspberry PI, the Springboot application and the webpage.
+						   It has the following topics:
+						   <ul>
+								<li>p1g2drive: for receiving the commands and sending them to the car</li>
+								<li>p1g2ultrasonic: for receiving the current distance of the car from an obstacle and sending it to the web browser</li>
+								<li>p1g2camera: for receiving the camera frames and sending them to the web browser</li>
+						   </ul>
+                      </li>
+                  </ul>
+
+                  <li>SpringBoot Server</li>
+                  <ul>
+                      <li> The Springboot web application coordinates the flow of information, have to deal with processing of the ultrasonic sensor, camera sensor and commands data in real time.
+						   It also provides REST API for the web page to query information about the camera frames and the ultrasonic sensor data.
+						   It connects to the PostgreSQL database to store the history of the commands executed by the user, with the respective timestamp.
+                      </li>
+                  </ul>
+
+                  <li>Web Browser</li>
+                  <ul>
+                      <li> The web page receives the camera frame data and the ultrasonic sensor data in real time and shows them to the user.
+						   It also has a set of buttons to control the car.
+                      </li>
+                  </ul>
+				  
+				  <li>PostgreSQL database</li>
+                  <ul>
+                      <li> We use a PostgreSQL database to store the commands executed by the user. Each record has associated with it the timestamo when it was executed. 
+						   This type of database was chosen in order to easily retrieve information between a certain time interval.
+                      </li>
+                  </ul>
+
+                </ul>
+          </p>
+
+          <!--<img src="./_images/Architecture_diagram.jpg" alt="Architecture diagram" height="400" >-->
+
+          <br>
+          <p class="lead">
+              <h4><strong>Technical Requirements</strong></h4>
+          </p>
+		  
+		  In terms of data, the application will handle live streaming of frame data from the camera, ultrasound data and the JSON commands sent by the web page.
+
+          <ul class="lead">
+            <li>Raspberry Pi 3 Model B V1.2</li>
+            <li>Raspberry Pi Camera V2.1</li>
+            <li>2 x HC-SR04 (Ultrasound sensor)</li>
+            <li>Waveshare Sound sensor V2 (microphone)</li>
+            <li>1 or 2 breadboard(s)</li>
+            <li>Jumpers</li>
+            <li>Lego car:</li>
+
+            <ul>
+                <li>Sbrick (controller)</li>
+                <li>LEGO Extension Wire</li>
+                <li>LEGO Power Functions Servo Motor</li>
+                <li>LEGO Power Functions L-Motor</li>
+                <li>LEGO® Power Functions Battery Box</li>
+                <li>Batteries</li>
+            </ul>
+          </ul>
+		  
+		  <br>
+          
+        </div>
+      </div>
+    </div>
+	<br>
+
+
+
+    
+    <section class="site-section border-bottom bg-light" id="agents-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-7 text-left">
+            <h2 class="section-title mb-3">Vision</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <div class="lead">
+            <p class="lead">
+              <h4><strong>Scenarios</strong></h4>
+          </p>
+
+          <p class="lead">
+              <h5>a) User controls vehicle using directional buttons</h5>
+          </p>
+          <ol class="lead">
+            <li type="b">User A turns on the RC vehicle</li>
+            <li type="b">User B connects to the website</li>
+            <li type="b">Website displays to the user B the directional arrows, the video stream and the voice activation button</li>
+            <li type="b">User B presses the forward button</li>
+            <li type="b">The vehicle goes forward and the video of the corresponding action is displayed to the user</li>
+          </ol>
+
+          <p class="lead">
+              <h5>b) User controls vehicle by voice</h5>
+          </p>
+          <ol class="lead">
+            <li type="b">User A turns on the RC vehicle</li>
+            <li type="b">User B connects to the website</li>
+            <li type="b">Website displays to the user B the directional arrows, the video stream and the voice activation button</li>
+            <li type="b">User B presses the button to activate speech recognition</li>
+            <li type="b">User B speaks "forward"</li>
+            <li type="b">The vehicle goes forward and the video of the corresponding action is displayed to the user</li>
+          </ol>
+
+          <p class="lead">
+              <h5>c) User controls vehicle to crash into a wall</h5>
+          </p>
+          <ol class="lead">
+            <li type="b">User A turns on the RC vehicle</li>
+            <li type="b">User B connects to the website</li>
+            <li type="b">Website displays to the user B the directional arrows, the video stream and the voice activation button</li>
+            <li type="b">User B presses the forward button</li>
+            <li type="b">The vehicle goes forward and stops due to an obstacle</li>
+          </ol>
+        </div>
+		
+		<br>
+		
+		<p class="lead">
+              <h4><strong>Persona</strong></h4>
+			  <br>
+			  <p class="lead">
+				   <img src="_images/persona1.jpeg" alt="Image" class="img-fluid " width="300px" style="float: left; padding-right: 50px" >
+			  </p style="float: right;">
+			  
+			  
+			  <p class="lead">
+			  My name is Daniel and I'm 26 years old. I'm a Software developer and also a volunteer fire fighter in the monitoring department. I'm very passionate about technology
+			  but I also enjoy going to the country side to recharge my batteries. <br>
+		      One of my goals in life is to preserve the deforestation caused by fires and reducing the destruction of natural habitats. 
+			  </p>
+          </p>
+      </div>
+    </section>
+
+
+    <!--<section class="site-section" id="about-section">
+        <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-7 text-left">
+                <h2 class="section-title mb-3">Manual</h2>
+                <p class="lead"></p>
+              </div>
+            </div>
+            <div class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              
+            </div>
+          </div>
+    </section>-->
+
+    
+
+    <!--<section class="site-section border-bottom " id="news-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-7 text-left">
+            <h2 class="section-title mb-3">Specification</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <div class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          
+        </div>
+      </div>
+    </section>-->
+
+    <section class="site-section testimonial-wrap " id="contact-section">
+        <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-7 text-left">
+                <h2 class="section-title mb-3">Developer</h2>
+                <p class="lead"></p>
+              </div>
+            </div>
+            <div class="lead">
+                <h4><strong><p>Pipeline Architecture</p></strong></h4>
+                <img src="./_images/devops_project.png" alt="Pipeline Architecture" height="500" >
+				<p style="font-size: 15px;">Original source: https://www.edureka.co/blog/devops-tools</p>
+                <br>
+				
+				<p>
+					The deployment pipeline used for this project is based on continuous integration using Jenkins. 
+					 
+					
+					
+					In order to monitor the application, the ELK stack is used to gather all the logs and store them in a NoSQL type database.
+					<ul class="social">
+					  <li>The project is developed with the Spring Tool Suite 3 and the source code is stored in a Github repository. 
+						  Jenkins has access to the repository in order to fetch the latest updates when building the application.</li>
+					  <li>After the build fase, the resulting deployable JAR is stored in the Artifactory repository.</li>
+					  <li>To deploy the application in various types of environments, a docker image is created and executed in the host machine.</li>
+					  <li>The ELK Stack was used to store all the application logs in a database and to be easily accessible by a search engine.</li>
+					</ul>
+				</p>
+               
+            </div>
+          </div>
+    </section>
+
+    <section class="site-section border-bottom bg-light" id="team-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-7 text-left">
+            <h2 class="section-title mb-3">Team</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <div class="row">
+          
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="./_images/DiogoGuedes.jpg" alt="Image_Diogo" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3 class="mb-2">Diogo Guedes</h3>
+                <span class="position">Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="./_images/CarlosRibeiro.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3 class="mb-2">Carlos Ribeiro</h3>
+                <span class="position">Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="./_images/JorgeFaustino.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3 class="mb-2">Jorge Faustino</h3>
+                <span class="position">Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="_images/goncalo.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3 class="mb-2">Gonçalo Ferreira</h3>
+                <span class="position">Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="_images/michel.jpg" alt="Image" class="img-fluid" width="400px">
+              </figure>
+              <div class="p-3">
+                <h3 class="mb-2">Michal Mirecki</h3>
+                <span class="position">Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="text-center">
+          <div class="col-md-12">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
